@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/main.js"></script>
+    <title>GOGO</title>
+</head>
+<body>
+    <!--div width : 100%, 안에 section들 크기를 max 1000px-->
+    <div id="head">
+        <!--bgimg 3개 33퍼-->
+        <section id="bg1" class="bg">
+            <div class="bg_wrap">
+                <div class="bg_div bg_img1">
+                    <img class="img1" src="images//bg_img/bg_1.jpeg" alt="벚꽃">
+                    <a href="#">
+                        <p>
+                            3월이 다가옵니다</br>
+                            벚꽃놀이하러 떠나볼까요?
+                            <span class="span1">➜</span>
+                        </p>
+                    </a>
+                </div>
+                <div class="bg_div bg_img2">
+                    <img class="img2" src="images/bg_img/bg_2.jpeg" alt="한옥마을">
+                    <a href="#">
+                        <p>
+                            서울의 랜드마크는 어디?</br>
+                            이곳에서 알아보세요!
+                            <span class="span3">➜</span>
+                        </p>
+                    </a>
+                </div>
+                <div class="bg_div bg_img3">
+                    <img class="img3" src="images/bg_img/bg_3.jpeg" alt="블루보틀">
+                    <a href="#">
+                        <p>
+                            방문후기</br>
+                            여기에 먼저 다녀왔어요!
+                            <span class="span3">➜</span>
+                        </p>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <header id="main_header">
+            <h1 id="main_logo" class="common_style_header">
+                <a href="#">
+                    <img src="images/earth_icon.png" alt="">
+                </a>
+            </h1>
+            <h2>이달의 추천 여행 테마</h2>
+            <ul class="login_link" class="common_style_header">
+                <li><a href="#">로그인</a></li>
+                <li><a href="#">회원가입</a></li>
+            </ul>
+            <nav>
+                <ul id="main_menu" class="common_style_header">
+                    <li><a href="">장소</a></li>
+                    <li><a href="">테마</a></li>
+                    <li><a href="">뉴스</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <div id="content1">
+        <div id="location">
+            <h2><a href="">여기는 가봐야죠~</a></h2>
+            <span>서울하면 빠질수 없는 이곳!</span>
+            <div id="find_location">
+                <ul class="location_menu">
+                    <li>
+                        <div>
+                            <a href="#">
+                                <img class="goimg1" src="images/content1_img/seoul_st.jpeg" alt="서울역">
+                            </a>
+                            <h3>서울역</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <img class="goimg2" src="images/content1_img/nodeul_is.JPG" alt="노들섬">
+                            </a>
+                            <h3>노들섬</h3>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <a href="#">
+                                <img class="goimg3" src="images/content1_img/cg_river.jpeg" alt="청계천">
+                            </a>
+                            <h3>청계천</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!--bg_동영상-->
+    <div id="content2">
+        <section id="bg2" class="bg">
+            <!--video 넣기-->
+            <video src="images/bg_vid/bg_vid01.MOV" muted autoplay loop></video>
+        </section>
+        <div id="most_in_seoul">
+            <div class="most_wrap">
+                <h2>
+                    BEST IN 
+                    <br>SEOUL
+                </h2>
+                <h3>2023</h3>
+                <p>2023년 서울에 가볼만한곳을 추천합니다!<br>
+                    멋진 서울을 돌아다니며 여러분들의 여행을 더욱 다양하게 즐겨보세요!
+                </p>
+                <a href="#">더 알아보기</a>
+            </div>
+        </div>
+    </div>
+    <div id="content3">
+        <div id="review">
+            <a href="#">
+                <h2>여기에 다녀왔어요!</h2>
+            </a>
+            <h3>방문후기와 새로운 소식</h3>
+            <div class="news_wrap">
+                <div class="main_news">
+                    <a href="#">
+                        <h4>
+                            이런카페는 어떠세요?
+                        </h4>
+                    </a>
+                    <p>
+                        이번에는 어떤카페를 가야할지 고민되시나요?<br>
+                        그렇다면 이런 카페는 어떠세요?<br>
+                        이색적인 카페부터 방문후기까지 여기서 찾아보세요!
+                    </p>
+                </div>
+                <div class="sub_news">
+                    <div class="sub_news1">
+                        <a href="#">
+                            <img src="images/content2_img/trackin_img.jpg" alt="한강둘레길">
+                        </a>
+                        <a href="#">
+                            <h4>서울 하이킹코스</h4>
+                        </a>
+                        <p>
+                            동네둘레길부터 북한산 트래킹까지!<br>
+                            자연과 함께하는 하이킹코스를 추천합니다!
+                        </p>
+                    </div>
+                    <div class="sub_news2">
+                        <a href="#">
+                            <img src="images/content2_img/night_img.jpg" alt="야경">
+                        </a>
+                        <a href="#">
+                            <h4>서울의 야경</h4>
+                        </a>
+                            <p>
+                                짙은 어둠에도<br>
+                                반짝반짝 빛나는 서울<br>
+                                서울의 야경명소를 찾아보세요!
+                            </p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="foot">
+        <footer id="footer">
+            <ul id="footer_link">
+                <a href=""><li>사이트맵</li></a>
+                <a href=""><li>개인정보처리방침</li></a>
+                <a href=""><li>이용약관</li></a>
+            </ul>
+            <address>
+                <span>&copy;2023 River All Rights Reserved</span>
+            </address>
+        </footer>
+    </div>
+</body>
+</html>
